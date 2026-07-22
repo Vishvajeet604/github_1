@@ -55,3 +55,4 @@ SELECT city,SUM  (salary)  FROM employees GROUP BY city
 
 SELECT salary, SUM (salary) FROM employees GROUP BY salary
 
+SELECT salary, count (salary) FROM employees GROUP BY salary
